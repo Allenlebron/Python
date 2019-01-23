@@ -1,0 +1,1 @@
+for i in list(range(0,5))+list(range(2,8))+list(range(3,12))+[2,2]:print(' '*int((40-2*i-i/2))+'*'*int((4*i+1+i))) 
