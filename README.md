@@ -1,2 +1,1 @@
-# codeLife
-python
+# python
