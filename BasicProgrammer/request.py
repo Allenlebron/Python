@@ -1,6 +1,6 @@
 
 import requests
-url = 'https://www.douban.com/'
+url = 'http://www.yunpas.com/'
 header = {
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate, sdch, br',
@@ -15,10 +15,12 @@ header = {
 resp = requests.post(url,header)
 resp.encoding = 'UTF-8'
 
+print(resp.status_code)
+print('--------------------------------')
 print(resp.text)
 print('--------------------------------')
 print(resp.content)
 print('--------------------------------')
 print(resp.headers)
-print('--------------------------------')
-print(resp.url)
+
+
